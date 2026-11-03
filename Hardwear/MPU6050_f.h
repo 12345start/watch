@@ -1,0 +1,17 @@
+#ifndef _MPU6050_F_H
+#define _MPU6050_F_H
+
+
+#define MPU_ACCEL_XOUTH_REG  0x3B
+#define MPU_ACCEL_XOUTL_REG  0x3C
+#define MPU_ACCEL_YOUTH_REG  0x3D
+#define MPU_ACCEL_YOUTL_REG  0x3E
+#define MPU_ACCEL_ZOUTH_REG  0x3F
+#define MPU_ACCEL_ZOUTL_REG  0x40
+#define MPU_GYRO_XOUTH_REG   0x43
+#define MPU_GYRO_XOUTL_REG   0x44
+#define MPU_GYRO_YOUTH_REG   0x45
+#define MPU_GYRO_YOUTL_REG   0x46
+#define MPU_GYRO_ZOUTH_REG   0x47
+#define MPU_GYRO_ZOUTL_REG   0x48
+#endif
